@@ -1,0 +1,47 @@
+input,
+button,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 5px #1f1f1f77;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #333333;
+}
+
+button:hover {
+  transition: 0.3s;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.corpo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: radial-gradient(#9f9f9f 60%, #7f7f7f 90%);
+  padding: 30px;
+  border-radius: 4px;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.grid-geral {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.operadores {
+  display: grid;
+  gap: 10px;
+}
+
+input {
+  text-align: end;
+}
